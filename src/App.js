@@ -2,7 +2,6 @@ import logo from './logo.svg';
 import './App.css';
 import '../src/styles/style.css';
 import Layout from './layouts/Layout';
-import Home_new from './pages/Home_new';
 import About from './pages/About'
 import 'bootstrap/dist/js/bootstrap.bundle.min';
 import ProfileCard from './pages/ProfileCard';
@@ -13,7 +12,6 @@ function App() {
   return (
     <Layout>
       {/* <Home_new/> */}
-      {/* <About/> */}
       <Form/>
       {/* <div className="container">
         <div className="row">
